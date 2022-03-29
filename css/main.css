@@ -1,0 +1,210 @@
+body {
+  background-color: #E9ECF7;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.top-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+.top-menu .logo {
+  width: 25%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-menu .logo .text {
+  margin-left: 5%;
+  width: 10%;
+  margin-top: -3%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.top-menu .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.top-menu .nav .menu-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.top-menu .nav .info {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #07577C;
+}
+.top-menu .nav .lk {
+  font-weight: 600;
+  font-size: 20spx;
+  line-height: 24px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.top-menu .nav .lk .header_profile {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.top-menu .nav .lk .header_profile .inside {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 26px;
+  background-color: #07577C;
+  color: white;
+}
+.top-menu .nav .lk .header_profile .inside label {
+  width: 60%;
+  text-align: center;
+}
+.top-menu .nav .lk .header_profile .inside .profile_img {
+  text-align: center;
+  width: 40%;
+}
+.top-menu .nav .lk .header_profile .inside .profile_img img {
+  width: 43px;
+  height: 43px;
+}
+.top-menu a {
+  text-decoration: none;
+  color: #07577C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.top-menu a:hover {
+  text-decoration: underline;
+}
+.top-menu ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+  font-size: 18px;
+  color: #07577C;
+}
+.top-menu ul li {
+  list-style: none;
+  padding-left: 40px;
+}
+
+.navbar-logo {
+  display: inline-block;
+  width: 35%;
+  height: 35%;
+}
+.navbar-logo img {
+  width: 90%;
+  height: 90%;
+}
+
+img {
+  width: 43px;
+  height: 43px;
+}
+
+
+.backimg{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.posat{
+  height: 10%;
+  width: 19%;
+  position: absolute;
+  top: 70%;
+  left: 40.5%;
+  overflow: auto;
+  background: #2c4597;
+  border: none;
+  border-radius: 10px;
+  transition: 0.4s;
+  color: white;
+  font-size: 26px;
+}
+.main__txt{
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transition: 0.4s;
+  color: white;
+  font-size: 2vh;
+}
+.posat:hover{
+  transition: 0.7s;
+  scale:1.3;
+}
+.opacity{
+  background: black;
+  opacity: 0.35;
+  height: 100%;
+  width: 100%
+}
